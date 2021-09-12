@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head-container {
+    height: 12vh;
+    width: auto;
+    flex-flow: column nowrap;
+    text-align: center;
+    font-size: 200%;
+}
+.h1-content {
+    
+    background-color: #00aeff;
+    text-align: center;
+    height: 40%;
+    width: auto;
+}
+.h2-content {
+    background-color: #fff099;
+    height: 60%;
+    text-align: center;
+}
+.nohead-container {
+    height: 100%;
+    width: auto;
+    flex-flow: column nowrap;
+}
+.body-container {
+    height: 70vh;
+    width: auto;
+}
+
+
+.menu-content {
+    height: 5%;
+    width: auto;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.menu {
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+nav a {
+    line-height: 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+a:nth-child(1){
+    width: 100px;
+}
+
+a:nth-child(2){
+    width: 100px;
+}
+
+a:nth-child(3){
+    width: 100px;
+}
+
+a:nth-child(4){
+    width: 100px;
+}
+
+.info-content {
+    height: 95%;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 50% 50%;
+    flex-flow: row nowrap;
+    
+}
+.left-board, .right-board {
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border: 0.5px solid rgb(182, 182, 182);
+}
+.left-item, .right-item {
+    line-height: 100px;
+    height: 30%;
+    width: 30%;
+    text-align: center;
+    text-transform: uppercase;
+    background:rgb(143, 255, 249) ;
+}
+footer{
+    height: 18vh;
+    bottom: 0;
+    z-index: 1;
+}
+.underground {
+    height: 100%;
+    width: auto;
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content: space-around;
+    background: black;
+}
+
+#under1, #under2, #under3 {
+    line-height: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: space-around;
+    border: 0.5px solid rgb(0, 0, 0);
+    color: white;
+}
